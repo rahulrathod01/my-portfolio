@@ -3,11 +3,24 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import About from './components/About';
+import Contact from './components/Contact';
+import Experience from './components/Experience';
+import Home from './components/Home';
+import NavBar from './components/NavBar';
+import Project from './components/Project';
+import SocialLinks from './components/SocialLinks';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <NavBar/>
+    <Home/>
+    <About/>
+    <Project/>
+    <Experience/>
+    <Contact/>
+    <SocialLinks/>
   </React.StrictMode>
 );
 
